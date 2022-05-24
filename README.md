@@ -1,10 +1,10 @@
 # Link Lock
 
 [Password-protect URLs using AES in the
-browser.](https://jstrieb.github.io/link-lock)
+browser.](https://wahyu9kdl.github.io/link-lock)
 
 Link Lock now supports secure, hidden bookmarks via bookmark knocking! Read
-more [here](https://jstrieb.github.io/projects/hidden-bookmarks).
+more [here](https://wahyu9kdl.github.io/projects/hidden-bookmarks).
 
 
 
@@ -25,7 +25,7 @@ Link Lock has many uses:
 
 - Store private bookmarks on a shared computer
 - Encrypt entire web pages (via [URL
-  Pages](https://github.com/jstrieb/urlpages))
+  Pages](https://github.com/wahyu9kdl/))
 - Send sensitive links over public or insecure channels (e.g., posting links
   to a public website that require a password to access)
 - Implement simple CAPTCHAs – particularly effective against basic web scrapers
@@ -47,27 +47,23 @@ versions of Link Lock are updated to be more secure. Please read the code
 ([`api.js`](https://github.com/jstrieb/link-lock/blob/master/api.js) in
 particular) for more information.
 
-Read the Hacker News discussion [here](https://news.ycombinator.com/item?id=23242290).
+Read the Hacker News discussion [here](https://wahyu9kdl.github.io/).
 
-Also [discussed on
-r/netsec](https://www.reddit.com/r/netsec/comments/i3n4sm/link_lock_password_protect_urls_using_aes_in_the/)
-and [discussed on
-r/programming](https://www.reddit.com/r/programming/comments/i5kpjx/link_lock_is_a_tool_for_encrypting_and_decrypting/).
 
 
 
 ## Examples
 
-- [Regular link encryption](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiRkVJR0FzdE53NXFzM1N1N0pVQUtlOEJpWWtYWERaU012WmFDdWxZYWo2eFJzY2lDRGJXd3VZRmFkdVpqbEN4UDN4S0lWQXRoMmJHcjhHWUciLCJoIjoiXG5QYXNzd29yZDogaGFja2VybmV3cyIsImkiOiJBOWJMZkFKbXJ1RFplWktJIn0=) - Password: hackernews
+- [Regular link encryption](https://wahyu9kdl.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiRkVJR0FzdE53NXFzM1N1N0pVQUtlOEJpWWtYWERaU012WmFDdWxZYWo2eFJzY2lDRGJXd3VZRmFkdVpqbEN4UDN4S0lWQXRoMmJHcjhHWUciLCJoIjoiXG5QYXNzd29yZDogaGFja2VybmV3cyIsImkiOiJBOWJMZkFKbXJ1RFplWktJIn0=) - Password: hackernews
 - [Encrypt entire
-  pages](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiWWhjbG0xeE9uZTJWU2tvc3N1WERwKytyN1lscW1nMVNNemRoSUVER2xVZVBTUFZ3MFA3WTVwQXdnVFVKZkt4WHJ4Nlg1KytCU09RNlVTTlI3M244VEdTeWJGMmJFTG5wc0x6WVRtZnQ3aDFZSzJ5VW16TEpBTk5VOThqZFMvTVFNUG93cWdoRjVUVnYyRWF1VkVHVVlJeE5iT3BtaldCNWJyMWpXemMyakJTNUxZVGVSajNTbVI5UWNwWlRWWmVrbit4Rzd3VzNIcEttRTdVRWNtbkhZS2dydGVmaHp5eTJGNVd6N1NKSm55OTJPWnJUOEFHUE9XY3JUbmxYV0NsTDB5QjVsQmZnUTJkcHk4Y3RmMHNvdVlvb1l2LzQ1U3krZUNtdHl2WkVDd25IeUhwUForamxsaDhuNUV5U2N1ZVRWTmRtRmlmOFBhM0FtdUpQOTdTYWZXbzNwbUo4cU40UFYvMllQbHlwSGFtTmI1dnBBQkc2cU1yUWlLMVp3WHBUSnF4OG9NNFdVVGh3L3B5S0QzOWRNNml2RlNzQzVRUWpaVHl0ODlSNDNVOVdkRDVMWHprdlZ1bVpNSmM2WDExTkI4V0ZSKzdyOGVvVU8wR21rRkxTU0JlaDJickt3bzkwWjRlZkJHTkZiYWE2dU9SWnQzSm1YU0NSSGZyclVRQ053cU96R2pCKzBYZHJFeC9NbHd3QkFKNTIvY0EraW9IUDk5RkszUDN1MlN6Sk1uQzVVSFg1NGNDd1Z2dWdiMzAvUmNsMjZvZzFxUDU0NWJlMGFiak9wYnZ5aFp6RjhkdDNUUjJFLzBMY2dUQUg4dE5wSVAyYzJoM2d4NlJEQUNTZ25LRzlteW4xdFU4Y0IwbWMrd1NPdkxIRlVXVXhIYnpGSkR0aS9MSDg1RDFvdVRNWTFjM3BsSSsxRFFROG5lbjVrR2hmRUhELzdsSFhIY1ZWTHNCbi9HOTFJZU02T2pTeS9aZFcySGZ4d050VzR2WEE3em1FdjhYRDNHL3M2ZTVqdVdQWjV3ck5JWFdzcDVROHdUSlI3U2JQUi94VDNwUUZncW9LaDF2OXVEWGZBaE5xYStXaElzNTlaR1UzdFlkRVFOZEVLdGpIcnF1bzJkcVpuNnB4eTU1ZDJiOVBrcFRLNGh5TEtDOEc1TmN3TEE3dUIzYTNlNlZ2NjVVVHcrdS9oWTBoMy9Nb3ZJaERmT3k2aGZiN2FQaEIyMStxSGZSeWt2VlFPUFZrbE41ak5EK1hKZURialgvd0NUWXJJVm0yOFZkTHppZURob2ZpRGpJRjdyakFQNlF6dWJjaGJYRGFtbFZQWUhOaGVNMWdTeGROSGw5a1lRVE5kbjA1WlcvbVhXNkQwbHk0VkwrOHRwZzdxQjU2YTRyL3lIWHA0Q0tSUkdIaEVWQUptbmh2ZnBaWE11QWdneGVoSkRibVdVKy9VMUgwM2JicUZub2h5R0VGRUxQV2JjZ05kdDJwWU1Cdy81TVNqSkdWWWRPQk5nTUsxbHA2ZVRxRGhwTVdJT2E4a1dSYWx3RzV1bDhuQjhnUVBkcXBCYVdxc3I3V242SVZoZHdLc0FvTGtsdTlnL0JoelNlZEQxRjcyblprN2tSS2l3a3BJbVhOeW9TQk1SSFJSMURjSm9qdU1ZVWlrZ2JxM0dpR2ZqNmMwTTBlU2lyMlhJRnRCTzd2VkJyRmpZL1pvVnJBQ1kwTzJ2UVlGcHovaEprNElKN0daOUpmc3U4ajl5Umc5S3IrNFU3MFhoZHRLY1VYeEtrbCt1VDBtN1owb2puR0xWOGRtampzTVdna3ZhV0FYNkJpK3cycVJKYnVYRW5yUEN5dUZGODhiZ2k3UDNYUVhOMHZTY3h2Uk4wVktKQ1MvR2RVWTJsZ0lDSXVBWFlUVE9KTGNsRkJPQWxialRmZThoTG5saTkzQm4xcnZOamhnM0Y2UkJ2N3NQOTlzODlGT3pwcEZHeHVKS1RhNEg4Y2NSRmxMWDBWbE9kR0RhNWM0NGVTdzh5dCsxWWJndDlvMlExcWNSYVZsaVdadSs5VjdxM1pqcWIxcDdKb2FUN0pDQ1U2ZXR6b0dJWjBQT1JqL3pVNUlVQkRjYXdHZWszZ0djSDBLdDcxa1NSN0F2TWRYeTR3WVI4ZmdTTlpoR3gwSTZYczZ5Vy9oWFB1WERPRjNHTVBTRFFmNGNhUjBuc3pmYTl3MXdGMzVSYktodEVkZnIwU0NLQzhIRXFzNWdsQ0M4RmIxN04wbGtBVlFwSWFRRGJrN254TjVINEFhQ3RKbU5JNHFYUDhocUV6aVhySGhhZWNzNkVBUDBvdjg2cWp4dz09IiwiaCI6InVybHBhZ2U1IiwiaSI6InJNZ2xiSEpzK3pSL2dteFAifQ==) - Password: urlpage5
+  pages](https://wahyu9kdl.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiWWhjbG0xeE9uZTJWU2tvc3N1WERwKytyN1lscW1nMVNNemRoSUVER2xVZVBTUFZ3MFA3WTVwQXdnVFVKZkt4WHJ4Nlg1KytCU09RNlVTTlI3M244VEdTeWJGMmJFTG5wc0x6WVRtZnQ3aDFZSzJ5VW16TEpBTk5VOThqZFMvTVFNUG93cWdoRjVUVnYyRWF1VkVHVVlJeE5iT3BtaldCNWJyMWpXemMyakJTNUxZVGVSajNTbVI5UWNwWlRWWmVrbit4Rzd3VzNIcEttRTdVRWNtbkhZS2dydGVmaHp5eTJGNVd6N1NKSm55OTJPWnJUOEFHUE9XY3JUbmxYV0NsTDB5QjVsQmZnUTJkcHk4Y3RmMHNvdVlvb1l2LzQ1U3krZUNtdHl2WkVDd25IeUhwUForamxsaDhuNUV5U2N1ZVRWTmRtRmlmOFBhM0FtdUpQOTdTYWZXbzNwbUo4cU40UFYvMllQbHlwSGFtTmI1dnBBQkc2cU1yUWlLMVp3WHBUSnF4OG9NNFdVVGh3L3B5S0QzOWRNNml2RlNzQzVRUWpaVHl0ODlSNDNVOVdkRDVMWHprdlZ1bVpNSmM2WDExTkI4V0ZSKzdyOGVvVU8wR21rRkxTU0JlaDJickt3bzkwWjRlZkJHTkZiYWE2dU9SWnQzSm1YU0NSSGZyclVRQ053cU96R2pCKzBYZHJFeC9NbHd3QkFKNTIvY0EraW9IUDk5RkszUDN1MlN6Sk1uQzVVSFg1NGNDd1Z2dWdiMzAvUmNsMjZvZzFxUDU0NWJlMGFiak9wYnZ5aFp6RjhkdDNUUjJFLzBMY2dUQUg4dE5wSVAyYzJoM2d4NlJEQUNTZ25LRzlteW4xdFU4Y0IwbWMrd1NPdkxIRlVXVXhIYnpGSkR0aS9MSDg1RDFvdVRNWTFjM3BsSSsxRFFROG5lbjVrR2hmRUhELzdsSFhIY1ZWTHNCbi9HOTFJZU02T2pTeS9aZFcySGZ4d050VzR2WEE3em1FdjhYRDNHL3M2ZTVqdVdQWjV3ck5JWFdzcDVROHdUSlI3U2JQUi94VDNwUUZncW9LaDF2OXVEWGZBaE5xYStXaElzNTlaR1UzdFlkRVFOZEVLdGpIcnF1bzJkcVpuNnB4eTU1ZDJiOVBrcFRLNGh5TEtDOEc1TmN3TEE3dUIzYTNlNlZ2NjVVVHcrdS9oWTBoMy9Nb3ZJaERmT3k2aGZiN2FQaEIyMStxSGZSeWt2VlFPUFZrbE41ak5EK1hKZURialgvd0NUWXJJVm0yOFZkTHppZURob2ZpRGpJRjdyakFQNlF6dWJjaGJYRGFtbFZQWUhOaGVNMWdTeGROSGw5a1lRVE5kbjA1WlcvbVhXNkQwbHk0VkwrOHRwZzdxQjU2YTRyL3lIWHA0Q0tSUkdIaEVWQUptbmh2ZnBaWE11QWdneGVoSkRibVdVKy9VMUgwM2JicUZub2h5R0VGRUxQV2JjZ05kdDJwWU1Cdy81TVNqSkdWWWRPQk5nTUsxbHA2ZVRxRGhwTVdJT2E4a1dSYWx3RzV1bDhuQjhnUVBkcXBCYVdxc3I3V242SVZoZHdLc0FvTGtsdTlnL0JoelNlZEQxRjcyblprN2tSS2l3a3BJbVhOeW9TQk1SSFJSMURjSm9qdU1ZVWlrZ2JxM0dpR2ZqNmMwTTBlU2lyMlhJRnRCTzd2VkJyRmpZL1pvVnJBQ1kwTzJ2UVlGcHovaEprNElKN0daOUpmc3U4ajl5Umc5S3IrNFU3MFhoZHRLY1VYeEtrbCt1VDBtN1owb2puR0xWOGRtampzTVdna3ZhV0FYNkJpK3cycVJKYnVYRW5yUEN5dUZGODhiZ2k3UDNYUVhOMHZTY3h2Uk4wVktKQ1MvR2RVWTJsZ0lDSXVBWFlUVE9KTGNsRkJPQWxialRmZThoTG5saTkzQm4xcnZOamhnM0Y2UkJ2N3NQOTlzODlGT3pwcEZHeHVKS1RhNEg4Y2NSRmxMWDBWbE9kR0RhNWM0NGVTdzh5dCsxWWJndDlvMlExcWNSYVZsaVdadSs5VjdxM1pqcWIxcDdKb2FUN0pDQ1U2ZXR6b0dJWjBQT1JqL3pVNUlVQkRjYXdHZWszZ0djSDBLdDcxa1NSN0F2TWRYeTR3WVI4ZmdTTlpoR3gwSTZYczZ5Vy9oWFB1WERPRjNHTVBTRFFmNGNhUjBuc3pmYTl3MXdGMzVSYktodEVkZnIwU0NLQzhIRXFzNWdsQ0M4RmIxN04wbGtBVlFwSWFRRGJrN254TjVINEFhQ3RKbU5JNHFYUDhocUV6aVhySGhhZWNzNkVBUDBvdjg2cWp4dz09IiwiaCI6InVybHBhZ2U1IiwiaSI6InJNZ2xiSEpzK3pSL2dteFAifQ==) - Password: urlpage5
 - [Implement a simple
-  CAPTCHA](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiZEx3Yi9CNitlK0ZjM1B3ZURrbUY2NjdQWFlIV1dsS3dpclhvZmkvRXBFTXU0ZERlVkJuSmUrN1loS2JxQ3RrPSIsImgiOiIxICsgMSA9ID8iLCJpIjoiRDJYd1MyK1EzaHpuUDV1NyJ9)
+  CAPTCHA](https://wahyu9kdl.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiZEx3Yi9CNitlK0ZjM1B3ZURrbUY2NjdQWFlIV1dsS3dpclhvZmkvRXBFTXU0ZERlVkJuSmUrN1loS2JxQ3RrPSIsImgiOiIxICsgMSA9ID8iLCJpIjoiRDJYd1MyK1EzaHpuUDV1NyJ9)
 - [Emoji
-  support](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiU1ZBemc0NUVoeXJMR1hXYmRUMXpLSFFIa0hiR2F3SzlMaWZzWW5SL0ZiaGp1cnZqMGg5VTE0bG9kVGs3S3B0TjdhcjZ2T3FvRjJLNkxMcDByL05PZE5nUTJ3UlhVOWM2RmFJdXNGajdrNkFkTC82OVJ6dmlFV2R0dWVacFM1dS9SN2w4L3Mzc1pMTVJNeHdhTVhVenYxTjZUVkdWTGloaXc3ZXlGY093Nkp2ZVN3aGl0OW9XWW84Yk9CMkpkTTF4ZnFRSGExbEoiLCJoIjoi8J+lkSIsImkiOiI5L3pmdHFmeHdoWFh4bDc4In0=) - Password: avocado
-- [Riddles in the dark](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiYkV5TzZDZ0VwVXZOU2xucWZiQlo3YUdYa1pSL1lub00vekJNaTBMS1VQRXVicktJQTBhS00zNkNEK0tDWXYxd3l0L2dxWTFMS0NPQnFLTldSSEpsYXVodEQ4L0dKVkU3eTFnb2JZalRmcXFtWmpRQTlVMmNhL3dJb2JvMk5DdENnWTZYMHE5MHJzZDk1L0Z6K2orNGlYSHJBa2htN01kL2pJRnNIeDIwZlNVTEFadUpyNjF6TTRucS9nQTZNcW9OS1VKaUxpSWdEakdUd0dhRmdER29OdHJ5Kzd1cUtVbW1BbWQvbWlISERqRDY3bjRtSDA5eWtndlIyVnkzanRsdU44S0puMWdkYWlTeGQvWVhXcUR2WUhrMWIzOVFlSnlIYUV5Q3ZlQkJoQ1RzZDVJbG1obU45WjB0UTdoYUpGVUl1R2hxOTNrOC82MDhpbUxKR0p0M1VNbHRHcEZJck9wUGJuSTlSVkg4WGhwVFh5aEc0Q0ZWajNNU1FGWHdLOXRkc1M4MGF0VGc1MXliZHBEcVIwV1dtWHJBN0hIQ1RCV253WEQ4SGR3SWZidkNmR2s2aW5ZajRHaHpjYUJ4UmV2c08xaGs0M1FmblQya0JHSHhBd0JqQkZTeVlrWCtldGlINHhVVFY3L295ZWtINWxzMmFSczZxc290RDNhS25jWDR3dm1VRUZNKzd3d3Z0UTlhUSt0NFprUWNyWmxGOFBUSVNRRmN3M0ZDMG5zREt1b2lHWWx1S044SGk1dW1QVjZvSC91ckdHSFJBd0VmWDg3VDNubzFBOHRJaEFhYURjSnBpQ2xvZERId3FYOWZmZC9US2JWVUd3a0cxMHdERGN1QUMrR3lJZUVNWExpR2VtNC9DSWNINnRRNTV1UGRZTmZ2aTVuNkU3UHZydFhOSkh5a21jdHpSUVZlSGlOeXp4TDZNY1BSSmZqLy9xZ0dWSWQ0M3Z6aFJBZDFzZHpYa1ZtREhJNFpneDBrQ3dxd05FUllLU3JTNGIwdmV3c3dOQjRVa2lIUFMwMDFpUjVCNG1hUjAvMkhhSFJnWjNMT0RFU1U4djdVNVhrUHllNC85WTZmY3BNeDdWRXg2OUYrem1GL1JsNml3bU1FYk55Ry9YQlU3bERGYXB3Uk1HUmExLzNSTWRObzFoVm5oQ08rNzRMNkxRQlNBSk04VldiZUE2bXVydG1vVHpxb2gvaWtqckxHKzFGUUVvM1lSMnhwQ1VlWVhxOXFSK2YwRGFCM3d4NFk4S0IrcmdUelhLc1JDZXBCTHRjVkhtcFV5UW4rdWswVitDZ0RCOXlPSkJFSXpYSmNnUWxHVlMyOGF4RjFmTnR4UTZkbzdiTU5xbFlqN1RvVzhaQ1NNU0JOVFU5cU92dlNESFBxTFZZOXEzYlhhc3gvZDVwRDBiTzdHTzVsdjlubm91MTZHNUpVTFRlM2IrN0I2azFpZFE3akd0VDFmOTNhUEg0bzZodWlLQXBZdVZQOVJjVHBHVlVyd3dhMzlPcFF4eFNJS2xxeW53d0xwZGxOMjJ0NUJIRm92c1IyUkZCeDhXTFA1a0tuNG9HdTJJcDVBVThDeGs4MG5GZ2VjUGIzS3RuL1lteHJqTVNVVkxmSXMyVUxmbHhqbkE5Q01aWi9ZdG0zZXpFc0VveU1wM3FZWnN1SGh4Rld2ajZXalFkUXdxRXlHY2Z6ZG94dDFvTXh1WVB3ZjF3N3JxWlR6eDVwVkptRGZ1V1VDUUxub2c5c0RqWmRKSHhZVTRadCt2NEYrRDJXdlZ1c0FZSzNJRGJZSnQzOWxSRUxXcUp4dkpaa2pHeXdSaWo1OGsvUzZtTmg0SnJaTk5hNmZFT08rcjU2U2RMcHI1dmh3enorbjFURExiWWZILzdsU0xvc0VaZk4vMFQyOFBrdlJEMlcrMnVvWm5QaVFRV2FnQXdIcmRCc0UrUjdEbFNsdnJWNmJtN0tuSlBWc2NqbXRVVlc3SXBDZ1NNMWh4QWhSZm5hRDJucGdRMmVocUhJZXFlZkpFc281WE1pVDNiWVUwRS92WVdSaHROMTJWdkwxa0k2ejA1UlR3PT0iLCJoIjoiVm9pY2VsZXNzIGl0IGNyaWVzLFxuV2luZ2xlc3MgZmx1dHRlcnMsXG5Ub290aGxlc3MgYml0ZXMsXG5Nb3V0aGxlc3MgbXV0dGVycy4iLCJpIjoiWW91TVFyMmJXRHdGMW1BVSJ9) - The password is a single, lowercase word
+  support](https://wahyu9kdl.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiU1ZBemc0NUVoeXJMR1hXYmRUMXpLSFFIa0hiR2F3SzlMaWZzWW5SL0ZiaGp1cnZqMGg5VTE0bG9kVGs3S3B0TjdhcjZ2T3FvRjJLNkxMcDByL05PZE5nUTJ3UlhVOWM2RmFJdXNGajdrNkFkTC82OVJ6dmlFV2R0dWVacFM1dS9SN2w4L3Mzc1pMTVJNeHdhTVhVenYxTjZUVkdWTGloaXc3ZXlGY093Nkp2ZVN3aGl0OW9XWW84Yk9CMkpkTTF4ZnFRSGExbEoiLCJoIjoi8J+lkSIsImkiOiI5L3pmdHFmeHdoWFh4bDc4In0=) - Password: avocado
+- [Riddles in the dark](https://wahyu9kdl.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiYkV5TzZDZ0VwVXZOU2xucWZiQlo3YUdYa1pSL1lub00vekJNaTBMS1VQRXVicktJQTBhS00zNkNEK0tDWXYxd3l0L2dxWTFMS0NPQnFLTldSSEpsYXVodEQ4L0dKVkU3eTFnb2JZalRmcXFtWmpRQTlVMmNhL3dJb2JvMk5DdENnWTZYMHE5MHJzZDk1L0Z6K2orNGlYSHJBa2htN01kL2pJRnNIeDIwZlNVTEFadUpyNjF6TTRucS9nQTZNcW9OS1VKaUxpSWdEakdUd0dhRmdER29OdHJ5Kzd1cUtVbW1BbWQvbWlISERqRDY3bjRtSDA5eWtndlIyVnkzanRsdU44S0puMWdkYWlTeGQvWVhXcUR2WUhrMWIzOVFlSnlIYUV5Q3ZlQkJoQ1RzZDVJbG1obU45WjB0UTdoYUpGVUl1R2hxOTNrOC82MDhpbUxKR0p0M1VNbHRHcEZJck9wUGJuSTlSVkg4WGhwVFh5aEc0Q0ZWajNNU1FGWHdLOXRkc1M4MGF0VGc1MXliZHBEcVIwV1dtWHJBN0hIQ1RCV253WEQ4SGR3SWZidkNmR2s2aW5ZajRHaHpjYUJ4UmV2c08xaGs0M1FmblQya0JHSHhBd0JqQkZTeVlrWCtldGlINHhVVFY3L295ZWtINWxzMmFSczZxc290RDNhS25jWDR3dm1VRUZNKzd3d3Z0UTlhUSt0NFprUWNyWmxGOFBUSVNRRmN3M0ZDMG5zREt1b2lHWWx1S044SGk1dW1QVjZvSC91ckdHSFJBd0VmWDg3VDNubzFBOHRJaEFhYURjSnBpQ2xvZERId3FYOWZmZC9US2JWVUd3a0cxMHdERGN1QUMrR3lJZUVNWExpR2VtNC9DSWNINnRRNTV1UGRZTmZ2aTVuNkU3UHZydFhOSkh5a21jdHpSUVZlSGlOeXp4TDZNY1BSSmZqLy9xZ0dWSWQ0M3Z6aFJBZDFzZHpYa1ZtREhJNFpneDBrQ3dxd05FUllLU3JTNGIwdmV3c3dOQjRVa2lIUFMwMDFpUjVCNG1hUjAvMkhhSFJnWjNMT0RFU1U4djdVNVhrUHllNC85WTZmY3BNeDdWRXg2OUYrem1GL1JsNml3bU1FYk55Ry9YQlU3bERGYXB3Uk1HUmExLzNSTWRObzFoVm5oQ08rNzRMNkxRQlNBSk04VldiZUE2bXVydG1vVHpxb2gvaWtqckxHKzFGUUVvM1lSMnhwQ1VlWVhxOXFSK2YwRGFCM3d4NFk4S0IrcmdUelhLc1JDZXBCTHRjVkhtcFV5UW4rdWswVitDZ0RCOXlPSkJFSXpYSmNnUWxHVlMyOGF4RjFmTnR4UTZkbzdiTU5xbFlqN1RvVzhaQ1NNU0JOVFU5cU92dlNESFBxTFZZOXEzYlhhc3gvZDVwRDBiTzdHTzVsdjlubm91MTZHNUpVTFRlM2IrN0I2azFpZFE3akd0VDFmOTNhUEg0bzZodWlLQXBZdVZQOVJjVHBHVlVyd3dhMzlPcFF4eFNJS2xxeW53d0xwZGxOMjJ0NUJIRm92c1IyUkZCeDhXTFA1a0tuNG9HdTJJcDVBVThDeGs4MG5GZ2VjUGIzS3RuL1lteHJqTVNVVkxmSXMyVUxmbHhqbkE5Q01aWi9ZdG0zZXpFc0VveU1wM3FZWnN1SGh4Rld2ajZXalFkUXdxRXlHY2Z6ZG94dDFvTXh1WVB3ZjF3N3JxWlR6eDVwVkptRGZ1V1VDUUxub2c5c0RqWmRKSHhZVTRadCt2NEYrRDJXdlZ1c0FZSzNJRGJZSnQzOWxSRUxXcUp4dkpaa2pHeXdSaWo1OGsvUzZtTmg0SnJaTk5hNmZFT08rcjU2U2RMcHI1dmh3enorbjFURExiWWZILzdsU0xvc0VaZk4vMFQyOFBrdlJEMlcrMnVvWm5QaVFRV2FnQXdIcmRCc0UrUjdEbFNsdnJWNmJtN0tuSlBWc2NqbXRVVlc3SXBDZ1NNMWh4QWhSZm5hRDJucGdRMmVocUhJZXFlZkpFc281WE1pVDNiWVUwRS92WVdSaHROMTJWdkwxa0k2ejA1UlR3PT0iLCJoIjoiVm9pY2VsZXNzIGl0IGNyaWVzLFxuV2luZ2xlc3MgZmx1dHRlcnMsXG5Ub290aGxlc3MgYml0ZXMsXG5Nb3V0aGxlc3MgbXV0dGVycy4iLCJpIjoiWW91TVFyMmJXRHdGMW1BVSJ9) - The password is a single, lowercase word
 - [Share
-  torrents](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoieVJqZnVGdlJETGFTdk4vRVYzUlg3OG9GZHRlWW81U04wcFlvSkFScFRaeXFwZTVoV1lESjFBeDVWRUswMDBNUlQ2ZVAwZ2tCTmlyaVdrYnNsVFdrZTNtNVVOVnoxSW43Z3BST1hQZDhsVmVDTkpJZi81Wm1PWFdzSDZ6dVJmdkVrald0UTRndkZBUE9VSm9id00rdnhtWGtuZW5TZ0pHeW9mMjg3L01pTERDN085NFoxTUwrMzlaNUkwdCtsaW1CaDFaNElWZ1p1QkpQUURvM2NodWZXemdTNU05Zk1FOFlxNXVUV1ZoZjVLV2VaTUR1Q0VWSmN2TjRXbDByZHl6MFpBPT0iLCJoIjoiXG5QYXNzd29yZDogdG9ycmVudGluZ19pcy1sZWdhbCEiLCJpIjoiUlIvNnJtRFhzb1lGblhiOSJ9) - Password: torrenting_is-legal!
+  torrents](https://wahyu9kdl.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoieVJqZnVGdlJETGFTdk4vRVYzUlg3OG9GZHRlWW81U04wcFlvSkFScFRaeXFwZTVoV1lESjFBeDVWRUswMDBNUlQ2ZVAwZ2tCTmlyaVdrYnNsVFdrZTNtNVVOVnoxSW43Z3BST1hQZDhsVmVDTkpJZi81Wm1PWFdzSDZ6dVJmdkVrald0UTRndkZBUE9VSm9id00rdnhtWGtuZW5TZ0pHeW9mMjg3L01pTERDN085NFoxTUwrMzlaNUkwdCtsaW1CaDFaNElWZ1p1QkpQUURvM2NodWZXemdTNU05Zk1FOFlxNXVUV1ZoZjVLV2VaTUR1Q0VWSmN2TjRXbDByZHl6MFpBPT0iLCJoIjoiXG5QYXNzd29yZDogdG9ycmVudGluZ19pcy1sZWdhbCEiLCJpIjoiUlIvNnJtRFhzb1lGblhiOSJ9) - Password: torrenting_is-legal!
 
 
 
@@ -94,7 +90,7 @@ me to build a secure encryption application. In particular:
 
 ## Usage
 
-- Create a locked link here: [https://jstrieb.github.io/link-lock](https://jstrieb.github.io/link-lock).
+- Create a locked link here: [https://jstrieb.github.io/link-lock](https://wahyu9kdl.github.io/link-lock).
 - Once you have a locked link, create a hidden bookmark here:
   <https://jstrieb.github.io/link-lock/hidden>.
 - Use the advanced options when creating a link to make the encryption more
@@ -112,12 +108,12 @@ me to build a secure encryption application. In particular:
 - Currently, the only way to recover a lost password is by trying all possible
   options (very slowly) by brute force. An example application to brute force
   Link Lock URLs in the browser can be found here:
-  <https://jstrieb.github.io/link-lock/bruteforce>.
+  <https://wahyu9kdl.github.io/link-lock/bruteforce>.
 - A parallelized, cross-platform, CPU-based brute forcer can be found here:
-  <https://github.com/jstrieb/bruteforce-link-lock>
+  <https://github.com/wahyu9kdl/bruteforce-link-lock>
 - If you receive a Link Lock URL that you do not trust, decrypt it using this
   interface that does not automatically redirect:
-  <https://jstrieb.github.io/link-lock/decrypt>.
+  <https://wahyu9kdl.github.io/link-lock/decrypt>.
 
 ### Evading Censorship
 
@@ -132,7 +128,7 @@ https://wikipedia.org/#eyJ2IjoiMC4wLjEiLCJlIjoiYUgrNDhISkpBWWhkeFFMc0l0VlIzeFlma
 instead of
 
 ```
-https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiYUgrNDhISkpBWWhkeFFMc0l0VlIzeFlma21mYlZCOFJ5Zz09In0=
+https://wahyu9kdl.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiYUgrNDhISkpBWWhkeFFMc0l0VlIzeFlma21mYlZCOFJ5Zz09In0=
 ```
 
 Any domain can be used in place of `wikipedia.org`. That way, a malicious
@@ -144,12 +140,12 @@ Using a local copy is particularly recommended for evading censorship, since no
 request to my domain is ever made.
 
 Alternatively paste the altered link directly into the [decrypt
-page](https://jstrieb.github.io/link-lock/decrypt/). This page does not check
+page](https://wahyu9kdl.github.io/link-lock/decrypt/). This page does not check
 the domain name of the pasted link, only the "fragment" (the part after the
 `#`). So, for example, the Wikipedia link above can be pasted directly in there
 and decrypted without changing the domain.
 
-Using a local copy of [URL Pages](https://github.com/jstrieb/urlpages) is also
+Using a local copy of [URL Pages](https://github.com/wahyu9kdl/urlpages) is also
 recommended. Entire web pages can be shared safely and secretly this way.
 
 
@@ -163,7 +159,7 @@ locked links will never break.
 
 Even if something were to happen to me, and I could not continue to work on
 the project, Link Lock will continue to work as long as my GitHub account is
-open and the [jstrieb.github.io](https://jstrieb.github.io) domain is online.
+open and the [jstrieb.github.io](https://wahyu9kdl.github.io) domain is online.
 
 
 
@@ -183,7 +179,7 @@ open and the [jstrieb.github.io](https://jstrieb.github.io) domain is online.
 Thank you to those who offered feedback on this program before its release.
 Thanks also to the Hacker News second-chance pool.
 
-Thanks to [@IAmMandatory](https://twitter.com/iammandatory) for discovering a
+Thanks to [@Awfanspage](https://twitter.com/awfanspage) for discovering a
 reflected XSS vulnerability resulting from allowing non-hypertext protocols in
 the URL. The vulnerability has since been fixed.
 
@@ -191,10 +187,34 @@ Thank you to Guillaume ([@gverdun](https://twitter.com/gverdun)) for
 translating Link Lock into French, and hosting a translated version. Likewise,
 thanks to Nele Hirsch ([@eBildungslabor](https://github.com/eBildungslabor/))
 for translating and hosting a German version, and to Piotr Wereszczyński
-([@YourSenseiCreeper](https://github.com/YourSenseiCreeper)) for translating
+([@wahyu9kdl](https://github.com/wahyu9kdl)) for translating
 and hosting a Polish version.
 
 
+
+<h3>Connect with me:</h3>
+    
+<p>    
+    <a href=" https://www.alhikmah.my.id/p/mp3-al-quran.html " target="blank"><img align="center" src=" https://blogger.googleusercontent.com/img/a/AVvXsEg9eIay8tna_DF67-KXOjTi7tWE94ff-qrIPe799Nlqo06swM8UeWSzCg6T0RBZxofdUruY3W5sErCq4PcDMdyMhmULH1KN9iLT15ey7cjBrK6mfN1TP_RpbpIwTb-hmu32psrWmb_7wY1f8FWKqESLqCpnhAF9qLVhM3FQc6NBf-43kV69T5I-meVddw=s128" alt="img" height="30" width="40"/></a>    
+    <a href="https://codepen.io/san3" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="san3" height="30" width="40"/></a>
+    <a href="https://dev.to/wahyu9kdl" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="wahyu9kdl" height="30" width="40"/></a>
+    <a href="https://twitter.com/Awfanspage" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="awfanspage" height="30" width="40"/></a>
+    <a href="https://www.linkedin.com/in/ahmad-wahyudi-41b6841b6" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/ahmad-wahyudi-41b6841b6" height="30" width="40"/></a>
+    <a href="https://fb.com/awgroupchannel" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="awgroupchannel" height="30" width="40"/></a>
+    <a href="https://instagram.com/awfanspage" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="awfanspage" height="30" width="40"/></a>
+    <a href="https://dribbble.com/wahyu9kdl/shots" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/dribbble.svg" alt="wahyu9kdl" height="30" width="40"/></a>
+    <a href="https://wahyu9kdl.medium.com" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="wahyu9kdl" height="30" width="40"/></a>
+    <a href="https://m.youtube.com/channel/UC7CRa3nkxakAZx_aRsMwRyA/playlists" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="aw youtube channel" height="30" width="40"/></a>
+    <a href="https://feeds.feedburner.com/Alhikmah9" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/rss.svg" alt="http://feedproxy.google.com/~r/blogspot/ghpgr/~3/vyr1fhc7dbi/informasi-cara-mendapatkan-ribuan.html" height="30" width="40"/></a>
+    <a href="https://wahyu9kdl.github.io"><img align="center" src=" https://raw.githubusercontent.com/wahyu9kdl/wahyu9kdl.github.io/main/Aw-icon.png " alt="Logo awdev" height="30" /></a>
+    <a href="https://m.facebook.com/Awgroupchannel" target="blank"><img  align="center" src=" https://camo.githubusercontent.com/97491cef561826228b265ef69be409bc19ac9b3894ba67f8ccd90e5f8283375a/68747470733a2f2f312e62702e626c6f6773706f742e636f6d2f2d4e6f32743975306f5f38592f594d43782d5662415767492f41414141414141414453492f7030786866775a4a37354d6e504c41664c79536471647a7464466e426132757367434c63424741735948512f733332302f636972636c652d63726f707065642e706e67" alt="Logo" height="30" width="40"/></a>
+    <a href="https://devoloper.awdev.eu.org/devoloper.html" target="blank"><img align="center" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVcYb02UwFVHmvvZ5iA03AL1JF8zK-qCHfsru43rIHHA3Wrgv7Ab_Mtn08VvzVjaBVCiLO5KToZzWeFcZ66jplWsqFgDUH2azI2s0H6DhXd9F9iRPMnDLi2cU2McOl6YbXbYcSvZIpnUQx_v_iDtEBk4lJCaYFD3bJR6l765trHINJOfFBAatJH13C/s281/awdev.png " alt="Logo" height="30" width="40"/></a>
+    <a href="https://www.awdev.eu.org" target="blank"><img  align="center" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4B2fk-VBn6xiGshk-q3MGnxL9BSOZkgbi0dWLVEu8yVRNCSLEAczznEB0lrQWdLLdFKb3KGFDjDDmEJGdGIVVla9oHv3buJVSPMoBFyJdKrh3GjnJfok5WevezH9y86pTq2qSfFvir-UsbmmKstKGx1FFsTD0kxLWTFmV4pYqKSHcVvzJ08_fKU8N/s1770/logo-www.awdev.eu.org.png " alt="Logo" height="30" width="40"/></a>    
+    <a href="https://www.alhikmah.my.id" target="blank"><img align="center" src="https://raw.githubusercontent.com/wahyu9kdl/wahyu9kdl/main/logo.png " alt="Logo ALHIKMAH.MY.ID" height="30" /></a>
+    <a href="https://www.blogger.com/follow-blog.g?blogID=392213471435482065" target="blank"><img align="center" src=" https://blogger.googleusercontent.com/img/a/AVvXsEhZo9w7yUEUyMZfWlEMwdLc5U6GgokdTUjEE2yH-MC7KtEPQtYWMaDdwenBNV-xPWOC9UZnOAob3hW7SiE0p46VzuArpYDjqFyAOEttFvL8r_OYnZHk8A-wzn6EoR3RucYBEjPngQboVFW3JLSAEaxt8j63jmjQqQyHvo4LRWxR907H75wEpCLAPoUSvg=s109" alt="" height="20" width="70"/></a>
+ </p>
+
+ 
 
 # Support the Project
 
@@ -214,7 +234,11 @@ instead make a generous donation to one of the following organizations. By
 advocating for Internet freedoms, organizations like these help me to feel
 comfortable releasing work publicly on the Web.
 
-- [Electronic Frontier Foundation](https://supporters.eff.org/donate/)
-- [Signal Foundation](https://signal.org/donate/)
-- [Mozilla](https://donate.mozilla.org/en-US/)
-- [The Internet Archive](https://archive.org/donate/index.php)
+<p align="center">
+<i>Loved the tool? Please consider <a href="https://www.paypal.com/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fmyaccount%2Ftransfer%2Fhomepage%2Fexternal%2Fprofile%3FflowContextData%3DdnQz6co9bTO3dXsoaSQoXrylmBBr7Z4w4NgW64GB_WDfmLR52ffZouE7E54etjPgewijP0OxmZksVyVuBbZSxh7v9r8PWndQTi1eJUMZCCj7rrJftUv11NTxekLdOnVJT8vh6pE128RXl6Lq4yOTwu0f2kutdDCQ_qZkx2CTsh1Z3f_OGWFAvKJiKVMHbhq3dn4SWoaIs2dY-I1dSekSdPbZuEHLmCfV3kIA3MpjsPC9xVmmiRxgIY0fsKhMIEnZZQdCZUSJTpNWAnvYDIc-pUIdstyJJzGtqMk0TeqjSG7LnM5jOZufDLI4W8Jbk14B1O-3rAfdL66TgrgjcVRK35l6WhQzVDZEWvimVxtUMuqCgf8gboCEKwLD3ywxApHbM23LBMJY9KBXh6ILB3oZCmB0wYYJxSwmpLiIEW%26amount%3D25%26currencyCode%3DAUD&onboardData=%7B%22country.x%22%3A%22ID%22%2C%22locale.x%22%3A%22id_ID%22%2C%22intent%22%3A%22paypalme%22%2C%22redirect_url%22%3A%22https%253A%252F%252Fwww.paypal.com%252Fmyaccount%252Ftransfer%252Fhomepage%252Fexternal%252Fprofile%253FflowContextData%253DdnQz6co9bTO3dXsoaSQoXrylmBBr7Z4w4NgW64GB_WDfmLR52ffZouE7E54etjPgewijP0OxmZksVyVuBbZSxh7v9r8PWndQTi1eJUMZCCj7rrJftUv11NTxekLdOnVJT8vh6pE128RXl6Lq4yOTwu0f2kutdDCQ_qZkx2CTsh1Z3f_OGWFAvKJiKVMHbhq3dn4SWoaIs2dY-I1dSekSdPbZuEHLmCfV3kIA3MpjsPC9xVmmiRxgIY0fsKhMIEnZZQdCZUSJTpNWAnvYDIc-pUIdstyJJzGtqMk0TeqjSG7LnM5jOZufDLI4W8Jbk14B1O-3rAfdL66TgrgjcVRK35l6WhQzVDZEWvimVxtUMuqCgf8gboCEKwLD3ywxApHbM23LBMJY9KBXh6ILB3oZCmB0wYYJxSwmpLiIEW%2526amount%253D25%2526currencyCode%253DAUD%22%2C%22sendMoneyText%22%3A%22Anda%2520mengirimkan%2520Ahmad%2520wahyudi%22%7D">donating</a>  💸 to help it improve!</i>
+</p>
+<a href="https://www.paypal.com/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fmyaccount%2Ftransfer%2Fhomepage%2Fexternal%2Fprofile%3FflowContextData%3DdnQz6co9bTO3dXsoaSQoXrylmBBr7Z4w4NgW64GB_WDfmLR52ffZouE7E54etjPgewijP0OxmZksVyVuBbZSxh7v9r8PWndQTi1eJUMZCCj7rrJftUv11NTxekLdOnVJT8vh6pE128RXl6Lq4yOTwu0f2kutdDCQ_qZkx2CTsh1Z3f_OGWFAvKJiKVMHbhq3dn4SWoaIs2dY-I1dSekSdPbZuEHLmCfV3kIA3MpjsPC9xVmmiRxgIY0fsKhMIEnZZQdCZUSJTpNWAnvYDIc-pUIdstyJJzGtqMk0TeqjSG7LnM5jOZufDLI4W8Jbk14B1O-3rAfdL66TgrgjcVRK35l6WhQzVDZEWvimVxtUMuqCgf8gboCEKwLD3ywxApHbM23LBMJY9KBXh6ILB3oZCmB0wYYJxSwmpLiIEW%26amount%3D25%26currencyCode%3DAUD&onboardData=%7B%22country.x%22%3A%22ID%22%2C%22locale.x%22%3A%22id_ID%22%2C%22intent%22%3A%22paypalme%22%2C%22redirect_url%22%3A%22https%253A%252F%252Fwww.paypal.com%252Fmyaccount%252Ftransfer%252Fhomepage%252Fexternal%252Fprofile%253FflowContextData%253DdnQz6co9bTO3dXsoaSQoXrylmBBr7Z4w4NgW64GB_WDfmLR52ffZouE7E54etjPgewijP0OxmZksVyVuBbZSxh7v9r8PWndQTi1eJUMZCCj7rrJftUv11NTxekLdOnVJT8vh6pE128RXl6Lq4yOTwu0f2kutdDCQ_qZkx2CTsh1Z3f_OGWFAvKJiKVMHbhq3dn4SWoaIs2dY-I1dSekSdPbZuEHLmCfV3kIA3MpjsPC9xVmmiRxgIY0fsKhMIEnZZQdCZUSJTpNWAnvYDIc-pUIdstyJJzGtqMk0TeqjSG7LnM5jOZufDLI4W8Jbk14B1O-3rAfdL66TgrgjcVRK35l6WhQzVDZEWvimVxtUMuqCgf8gboCEKwLD3ywxApHbM23LBMJY9KBXh6ILB3oZCmB0wYYJxSwmpLiIEW%2526amount%253D25%2526currencyCode%253DAUD%22%2C%22sendMoneyText%22%3A%22Anda%2520mengirimkan%2520Ahmad%2520wahyudi%22%7D"/><img align="center"  src="https://img.shields.io/badge/support-PayPal-blue?logo=PayPal&style=flat-square&label=Donate" alt="sponsor github profile readme generator"/>
+</a>  
+<a href="https://trakteer.id/awfanspage/tip "><img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="30" width="100" alt="Support" /></a>
+<a href="https://ko-fi.com/Awfanspage"><img align="center" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="30" width="100" alt="Awfanspage" /></a>
+</p>
