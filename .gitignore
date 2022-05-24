@@ -1,5 +1,9 @@
-# gcc coverage testing tool files
+# Vim temporary swap files
+*.swp
+*.swo
 
-*.gcno
-*.gcda
-*.gcov
+# Backed up copies of old files
+*.bak
+
+# Generated SSL key file for SSL python http.server
+*.pem
