@@ -44,7 +44,7 @@ disabled by the user via "advanced options." The salt and initialization vector
 are sent with the encrypted data if they are randomly generated. The API is
 versioned such that old encrypted links will always work, even if later
 versions of Link Lock are updated to be more secure. Please read the code
-([`api.js`](https://github.com/jstrieb/link-lock/blob/master/api.js) in
+([`api.js`](https://github.com/wahyu9kdl/link-lock/blob/main/api.js) in
 particular) for more information.
 
 Read the Hacker News discussion [here](https://wahyu9kdl.github.io/).
@@ -90,9 +90,9 @@ me to build a secure encryption application. In particular:
 
 ## Usage
 
-- Create a locked link here: [https://jstrieb.github.io/link-lock](https://wahyu9kdl.github.io/link-lock).
+- Create a locked link here: [https://wahyu9kdl.github.io/link-lock](https://wahyu9kdl.github.io/link-lock).
 - Once you have a locked link, create a hidden bookmark here:
-  <https://jstrieb.github.io/link-lock/hidden>.
+  <https://wahyu9kdl.github.io/link-lock/hidden>.
 - Use the advanced options when creating a link to make the encryption more
   secure (at the cost of a longer link).
     - By default, the initialization vector is randomized for security, but
@@ -145,7 +145,7 @@ the domain name of the pasted link, only the "fragment" (the part after the
 `#`). So, for example, the Wikipedia link above can be pasted directly in there
 and decrypted without changing the domain.
 
-Using a local copy of [URL Pages](https://github.com/wahyu9kdl/urlpages) is also
+Using a local copy of [URL Pages](https://github.com/wahyu9kdl/link-look/) is also
 recommended. Entire web pages can be shared safely and secretly this way.
 
 
@@ -165,11 +165,11 @@ open and the [jstrieb.github.io](https://wahyu9kdl.github.io) domain is online.
 
 ## Other Versions & Related Projects
 
-- French translation: [cacheton.site](https://cacheton.site)
-- German translation:
-  [ebildungslabor.github.io/link-lock](https://ebildungslabor.github.io/link-lock/)
+- Jawa translation: [Java.site](https://Java.site)
+- Indonesia translation:
+  [Indonesion.github.io/link-lock](https://wahyu9kdl.github.io/link-lock/)
 - Polish translation: 
-  [yoursenseicreeper.github.io/link-lock](https://yoursenseicreeper.github.io/link-lock/)
+  [your<example>.github.io/link-lock](https://wahyu9kdl.github.io/link-lock/)
 
 
 
@@ -183,10 +183,10 @@ Thanks to [@Awfanspage](https://twitter.com/awfanspage) for discovering a
 reflected XSS vulnerability resulting from allowing non-hypertext protocols in
 the URL. The vulnerability has since been fixed.
 
-Thank you to Guillaume ([@gverdun](https://twitter.com/gverdun)) for
+Thank you to Awdev ([@Awdev](https://twitter.com/awfanspage)) for
 translating Link Lock into French, and hosting a translated version. Likewise,
-thanks to Nele Hirsch ([@eBildungslabor](https://github.com/eBildungslabor/))
-for translating and hosting a German version, and to Piotr Wereszczyński
+thanks to Awdev Corporation ([@Corporation](https://github.com/wahyu9kdl/DEVOLOPER))
+for translating and hosting a Indonesion version, and to pages
 ([@wahyu9kdl](https://github.com/wahyu9kdl)) for translating
 and hosting a Polish version.
 
