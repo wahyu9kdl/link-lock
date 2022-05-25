@@ -150,7 +150,7 @@ me to build a secure encryption application. In particular:
 ### Evading Censorship
 
 Link Lock can be used to evade censorship. If you are concerned that sending
-links with the `jstrieb.github.io` domain name will put you at risk, just
+links with the [`wahyu9kdl.github.io`](https://wahyu9kdl.github.io) domain name will put you at risk, just
 replace the domain with another. For example, share
 
 ```
@@ -167,7 +167,7 @@ Any domain can be used in place of `wikipedia.org`. That way, a malicious
 third-party who clicks the altered link will be taken to a valid page, which
 helps alleviate suspicion. When sharing the password to unlock the link,
 explain how to switch out the domain name with either
-`jstrieb.github.io/link-lock`, or with the path to a local clone of Link Lock.
+[`wahyu9kdl.github.io/link-lock`](https://wahyu9kdl.github.io/link-loc), or with the path to a local clone of Link Lock.
 Using a local copy is particularly recommended for evading censorship, since no
 request to my domain is ever made.
 
