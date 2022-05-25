@@ -2,7 +2,7 @@
 
 Click special bookmarks in the right order to open a hidden link.
 
-- [Try the demo](https://wahyu9kdl.github.io/projects/hidden-bookmarks/#demo)
+- [Try the demo](https://wahyu9kdl.github.io/link-lock/hidden/)
 
 ---
 
@@ -24,7 +24,7 @@ people](https://wahyu9kdl.github.io).
  * May 2022
  */
 
-Almost a year ago, I created [Link Lock](https://jstrieb.github.io/link-lock)
+Almost a year ago, I created [Link Lock](https://wahyu9kdl.github.io/link-lock)
 -- a tool to enable anyone to securely password-protect URLs. But adding a
 password to links isn't always enough.
 
@@ -40,8 +40,63 @@ There are two versions available:
 - [A stable, simplified version integrated directly into Link
   Lock](https://wahyu9kdl.github.io/link-lock/hidden/)
 - [An experimental
-  version](https://wahyu9kdl.github.io/projects/hidden-bookmarks/#demo), designed
+  version](https://wahyu9kdl.github.io/link-lock/hidden/), designed
   to test the limits of the idea
+
+# Instalation
+ Clone HTTP/HTTPS
+ ```
+ https://github.com/wahyu9kdl/link-lock.git
+ ```
+ Clone GitHub CLI
+ ```
+ gh repo clone wahyu9kdl/link-lock
+ ```
+ LIVE PAGE 
+ ```
+ https://wahyu9kdl.github.io/link-lock/create/
+ ```
+ EXAMPLE 
+ Link
+ ```
+ https://admin.alhikmah.my.id/
+ ```
+ hint (optional)
+ ```
+ admin alhikmah 🎨🖥🛡♥️ password: alhikmah
+ ```
+ password
+ ```
+ alhikmah
+ ```
+ Lived
+ ```
+ https://wahyu9kdl.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiL2RLTGZyOUIzRit6RmQwU1RxQ2dCVk1YeWlWWU4zMTZVZjlTTTkrVFVxeDdkOVdqQm1SN1E0WUFHTjUyIiwiaCI6ImFkbWluIGFsaGlrbWFoIPCfjqjwn5al8J+boeKZpe+4jyBwYXNzd29yZDogYWxoaWttYWgiLCJzIjoiSEk2Qkhzc3ZMTDcrUXZ6dE95YTdsdz09IiwiaSI6ImdSVHg1cnM0a2IxRG5JQ20ifQ==
+ ```
+ Download
+ ```
+ https://github.com/wahyu9kdl/link-lock/archive/refs/heads/main.zip
+ ```
+ 
+# SPONSORED
+
+PATREON
+```
+https://patreon.com/Awfanspage
+```
+OPPEN COLLECTIVE
+```
+https://opencollective.com/wahyu9kdl
+```
+KOFI
+```
+https://ko-fi.com/Awfanspage
+```
+SAWERIA
+```
+https://saweria.co/AwGroupChannel
+```
+
 
 
 # How It Works
@@ -139,7 +194,7 @@ Example use cases:
 If you have ideas for how to address the following problems, or want to discuss
 others, please [open an issue on
 GitHub](https://github.com/wahyu9kdl/link-lock/issues/new) or use my [contact
-form](https://wahyu9kdl.github.io/about#contact).
+form](https://form.jotform.com/awfanspage/formulir).
 
 - Generated bookmarks are prefixed with `javascript:` and therefore cannot have
   favicons. As such, they're not perfectly identical to a regular bookmark for
