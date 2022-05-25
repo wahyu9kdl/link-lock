@@ -1,9 +1,10 @@
 {
   "name": "link-lock",
-  "description": "Concise, consistent, and legible badges in SVG and raster format.",
+  "version": "1.0.0",
+  "description": "Link Lock is a tool for adding a password to a link; in other words, for encrypting and decrypting URLs. ",
   "keywords": ["link-lock", "github", "awdev", "tatus","wahyu9kdl","scurity"],
   "website": "https://wahyu9kdl.github.io/link-lock",
-  "repository": "https://github.com/badges/shields",
+  "repository": "https://github.com/wahyu9kdl/link-lock",
   "logo": "https://wahyu9kdl.github.io/img/favicon.ico",
   "env": {
     "CYPRESS_INSTALL_BINARY": {
