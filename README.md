@@ -49,7 +49,39 @@ particular) for more information.
 
 Read the Hacker News discussion [here](https://wahyu9kdl.github.io/).
 
+# Instalation
 
+ Clone HTTP/HTTPS
+ ```
+https://github.com/wahyu9kdl/link-lock.git
+```
+ Clone GitHub CLI
+ ```
+gh repo clone wahyu9kdl/link-lock
+```
+ LIVE PAGE 
+ ```
+https://wahyu9kdl.github.io/link-lock/create/
+```
+ EXAMPLE 
+ Link Excample
+ ```
+https://admin.alhikmah.my.id/
+```
+ hint (optional)
+ ```
+admin alhikmah 🎨🖥🛡♥️ password: alhikmah
+```
+ password
+ ```
+alhikmah
+```
+Link Live
+ ```
+https://wahyu9kdl.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiL2RLTGZyOUIzRit6RmQwU1RxQ2dCVk1YeWlWWU4zMTZVZjlTTTkrVFVxeDdkOVdqQm1SN1E0WUFHTjUyIiwiaCI6ImFkbWluIGFsaGlrbWFoIPCfjqjwn5al8J+boeKZpe+4jyBwYXNzd29yZDogYWxoaWttYWgiLCJzIjoiSEk2Qkhzc3ZMTDcrUXZ6dE95YTdsdz09IiwiaSI6ImdSVHg1cnM0a2IxRG5JQ20ifQ==
+```
+ 
+ 
 
 
 ## Examples
@@ -159,7 +191,7 @@ locked links will never break.
 
 Even if something were to happen to me, and I could not continue to work on
 the project, Link Lock will continue to work as long as my GitHub account is
-open and the [jstrieb.github.io](https://wahyu9kdl.github.io) domain is online.
+open and the [wahyu9kdl.github.io](https://wahyu9kdl.github.io) domain is online.
 
 
 
