@@ -1,0 +1,18 @@
+{
+  "name": "link-lock",
+  "version": "1.0.0",
+  "description": "Link Lock is a tool for adding a password to a link; in other words, for encrypting and decrypting URLs. ",
+  "keywords": ["link-lock", "github", "awdev", "tatus","wahyu9kdl","scurity"],
+  "website": "https://wahyu9kdl.github.io/link-lock",
+  "repository": "https://github.com/wahyu9kdl/link-lock",
+  "logo": "https://wahyu9kdl.github.io/img/favicon.ico",
+  "browser": "/index.html",
+  "scripts": {
+    "start": "node app.js"
+      },
+  "license": "MIT License",
+  "devDependencies": {
+    "chokidar": "^1.1.1",
+    "express": "^1.9.1"
+  }
+}
