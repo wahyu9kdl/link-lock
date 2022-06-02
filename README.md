@@ -81,7 +81,168 @@ Link Live
 https://wahyu9kdl.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiL2RLTGZyOUIzRit6RmQwU1RxQ2dCVk1YeWlWWU4zMTZVZjlTTTkrVFVxeDdkOVdqQm1SN1E0WUFHTjUyIiwiaCI6ImFkbWluIGFsaGlrbWFoIPCfjqjwn5al8J+boeKZpe+4jyBwYXNzd29yZDogYWxoaWttYWgiLCJzIjoiSEk2Qkhzc3ZMTDcrUXZ6dE95YTdsdz09IiwiaSI6ImdSVHg1cnM0a2IxRG5JQ20ifQ==
 ```
  
- 
+ # macOS
+
+Architecture x64
+
+- Download
+
+```
+# Create a folder
+$ mkdir actions-runner && cd actions-runner# Download the latest runner package
+$ curl -o actions-runner-osx-x64-2.291.1.tar.gz -L https://github.com/actions/runner/releases/download/v2.291.1/actions-runner-osx-x64-2.291.1.tar.gz# Optional: Validate the hash
+$ echo "1ed51d6f35af946e97bb1e10f1272197ded20dd55186ae463563cd2f58f476dc  actions-runner-osx-x64-2.291.1.tar.gz" | shasum -a 256 -c# Extract the installer
+$ tar xzf ./actions-runner-osx-x64-2.291.1.tar.gz
+```
+
+- Configure
+
+```
+# Create the runner and start the configuration experience
+$ ./config.sh --url https://github.com/wahyu9kdl/link-lock --token AUB55YBFCW7GBJLQAOMT7G3CTBEWE# Last step, run it!
+$ ./run.sh
+```
+
+- Using your self-hosted runner
+
+```
+# Use this YAML in your workflow file for each job
+runs-on: self-hosted
+```
+
+For additional details about configuring, running, or shutting down the runner, please check out our product docs.
+
+
+#  Windows
+
+Architecture x64
+
+- Download 
+
+We recommend configuring the runner under "\actions-runner". This will help avoid issues related to service identity folder permissions and long path restrictions on Windows.
+
+
+```
+# Create a folder under the drive root
+$ mkdir actions-runner; cd actions-runner# Download the latest runner package
+$ Invoke-WebRequest -Uri https://github.com/actions/runner/releases/download/v2.291.1/actions-runner-win-x64-2.291.1.zip -OutFile actions-runner-win-x64-2.291.1.zip# Optional: Validate the hash
+$ if((Get-FileHash -Path actions-runner-win-x64-2.291.1.zip -Algorithm SHA256).Hash.ToUpper() -ne '2a504f852b0ab0362d08a36a84984753c2ac159ef17e5d1cd93f661ecd367cbd'.ToUpper()){ throw 'Computed checksum did not match' }# Extract the installer
+$ Add-Type -AssemblyName System.IO.Compression.FileSystem ; [System.IO.Compression.ZipFile]::ExtractToDirectory("$PWD/actions-runner-win-x64-2.291.1.zip", "$PWD")
+```
+
+- Configure
+
+```
+# Create the runner and start the configuration experience
+$ ./config.cmd --url https://github.com/wahyu9kdl/link-lock --token AUB55YDZ2E6RMNHZ4MG4FTDCTBENE# Run it!
+$ ./run.cmd
+```
+
+- Using your self-hosted runner
+
+```
+# Use this YAML in your workflow file for each job
+runs-on: self-hosted
+```
+
+
+For additional details about configuring, running, or shutting down the runner, please check out our product docs.
+
+
+# Linux
+
+Architecture x64
+
+- Download
+
+```
+# Create a folder
+$ mkdir actions-runner && cd actions-runner# Download the latest runner package
+$ curl -o actions-runner-linux-x64-2.291.1.tar.gz -L https://github.com/actions/runner/releases/download/v2.291.1/actions-runner-linux-x64-2.291.1.tar.gz# Optional: Validate the hash
+$ echo "1bde3f2baf514adda5f8cf2ce531edd2f6be52ed84b9b6733bf43006d36dcd4c  actions-runner-linux-x64-2.291.1.tar.gz" | shasum -a 256 -c# Extract the installer
+$ tar xzf ./actions-runner-linux-x64-2.291.1.tar.gz
+```
+
+- Configure
+
+```
+# Create the runner and start the configuration experience
+$ ./config.sh --url https://github.com/wahyu9kdl/link-lock --token AUB55YBFCW7GBJLQAOMT7G3CTBEWE# Last step, run it!
+$ ./run.sh
+```
+
+- Using your self-hosted runner
+
+```
+# Use this YAML in your workflow file for each job
+runs-on: self-hosted
+```
+
+For additional details about configuring, running, or shutting down the runner, please check out our product docs.
+
+
+# Linux
+
+Architecture ARM
+
+- Download
+
+```
+# Create a folder
+$ mkdir actions-runner && cd actions-runner# Download the latest runner package
+$ curl -o actions-runner-linux-arm-2.291.1.tar.gz -L https://github.com/actions/runner/releases/download/v2.291.1/actions-runner-linux-arm-2.291.1.tar.gz# Optional: Validate the hash
+$ echo "a78e86ba6428a28733730bdff3a807480f9eeb843f4c64bd1bbc45de13e61348  actions-runner-linux-arm-2.291.1.tar.gz" | shasum -a 256 -c# Extract the installer
+$ tar xzf ./actions-runner-linux-arm-2.291.1.tar.gz
+```
+
+- Configure
+
+```
+# Create the runner and start the configuration experience
+$ ./config.sh --url https://github.com/wahyu9kdl/link-lock --token AUB55YBFCW7GBJLQAOMT7G3CTBEWE# Last step, run it!
+$ ./run.sh
+```
+
+- Using your self-hosted runner
+
+```
+# Use this YAML in your workflow file for each job
+runs-on: self-hosted
+```
+
+For additional details about configuring, running, or shutting down the runner, please check out our product docs.
+
+
+
+# Linux
+Architecture ARM64
+
+- Download
+
+```
+# Create a folder
+$ mkdir actions-runner && cd actions-runner# Download the latest runner package
+$ curl -o actions-runner-linux-arm64-2.291.1.tar.gz -L https://github.com/actions/runner/releases/download/v2.291.1/actions-runner-linux-arm64-2.291.1.tar.gz# Optional: Validate the hash
+$ echo "c4823bd8322f80cb24a311ef49273f0677ff938530248242de7df33800a22900  actions-runner-linux-arm64-2.291.1.tar.gz" | shasum -a 256 -c# Extract the installer
+$ tar xzf ./actions-runner-linux-arm64-2.291.1.tar.gz
+```
+
+- Configure
+
+```
+# Create the runner and start the configuration experience
+$ ./config.sh --url https://github.com/wahyu9kdl/link-lock --token AUB55YBFCW7GBJLQAOMT7G3CTBEWE# Last step, run it!
+$ ./run.sh
+```
+
+- Using your self-hosted runner
+
+```
+# Use this YAML in your workflow file for each job
+runs-on: self-hosted
+```
+
+For additional details about configuring, running, or shutting down the runner, please check out our product docs.
 
 
 ## Examples
