@@ -15,7 +15,7 @@ var b64 = (function() {
   }
 
   // Decode URL safe even though it is not the primary encoding mechanism
-  const _a = "3GiQbHPfTGczxZBeUGBkzC4TAiMiapaWih+/";
+  const _a = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
   const _aRev = generateIndexDict(_a);
   _aRev["-"] = _aRev["+"];
   _aRev["_"] = _aRev["/"];
