@@ -303,10 +303,12 @@ me to build a secure encryption application. In particular:
   Link Lock URLs in the browser can be found here:
   <https://wahyu9kdl.github.io/link-lock/bruteforce>.
 - A parallelized, cross-platform, CPU-based brute forcer can be found here:
-  <https://github.com/wahyu9kdl/bruteforce-link-lock>
+  <https://wahyu9kdl.github.io/link-lock/bruteforce/>
 - If you receive a Link Lock URL that you do not trust, decrypt it using this
   interface that does not automatically redirect:
   <https://wahyu9kdl.github.io/link-lock/decrypt>.
+- Get Started On Link Lock
+  <https://wahyu9kdl.github.io/link-lock/index.html>
 
 ### Evading Censorship
 
@@ -328,7 +330,7 @@ Any domain can be used in place of `wikipedia.org`. That way, a malicious
 third-party who clicks the altered link will be taken to a valid page, which
 helps alleviate suspicion. When sharing the password to unlock the link,
 explain how to switch out the domain name with either
-[`wahyu9kdl.github.io/link-lock`](https://wahyu9kdl.github.io/link-loc), or with the path to a local clone of Link Lock.
+[`wahyu9kdl.github.io/link-lock`](https://wahyu9kdl.github.io/link-lock), or with the path to a local clone of Link Lock.
 Using a local copy is particularly recommended for evading censorship, since no
 request to my domain is ever made.
 
@@ -338,7 +340,7 @@ the domain name of the pasted link, only the "fragment" (the part after the
 `#`). So, for example, the Wikipedia link above can be pasted directly in there
 and decrypted without changing the domain.
 
-Using a local copy of [URL Pages](https://github.com/wahyu9kdl/link-look/) is also
+Using a local copy of [URL Pages](https://github.com/wahyu9kdl/link-lock/) is also
 recommended. Entire web pages can be shared safely and secretly this way.
 
 
